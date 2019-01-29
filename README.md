@@ -23,6 +23,7 @@ This is a small example setup to run pretix with docker-compose.
 |MAIL_FROM|tickets@ChangeMeToYourPretixDomain.arpa|Change before first run to your own domain. This is the address that pretix will send as. Don't forget to add the host to your spf record.|
 |INSTANCE_NAME|"My pretix installation"|Your instance name, used to differenciate between multiple instances. Should only be changed before first run.|
 |CURRENCY|EUR|Your local currency, can be any string. Should be changed before first run.|
+|URL|localhost|Your hostname.|
 
 ## Run with nginx container
 
